@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation start -->
+    <header id="home">
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">
+                <a href="#home" class="logo-link">Portfolio</a>
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="link" href="#home" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="#intro">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="#portfolio">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navigation end -->
+
+    <!-- Intro start -->
+    <section id="intro">
+        <img src="images/htmlcssjslogo.png" class="dev-logos" alt="Web Develoment Logos">
+        <p class="intro-title type-me">Hi, my name is Terry. <br> I am a self-taught developer.</p>
+        <img src="images/solidity-white-logo.png" class="dev-logos" alt="Solidity logo">
+    </section>
+    <!-- Intro end -->
+
+    <!-- Portfolio start -->
+    <section id="portfolio">
+        <p class="portfolio-header">Projects I have finished</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <a href="https://landing-page-template-bay.vercel.app/">
+                    <img src="images/landing-page.png" alt="Landing page using HTML and CSS">
+                </a>
+                <p>Simple landing page created using HTML and CSS.</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/Password-Generator">
+                    <img src="images/password-project.png" alt="Password generator using HTML, CSS and JavaScript">
+                </a>
+                <p>Password generator project, created using HTML, CSS and JavaScript.</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://memorymatchgame.netlify.app/">
+                    <img src="images/memory-match.png" alt="Memory match game made using HTML, CSS and JavaScript">
+                </a>
+                <p>Memory match game made for my son using HTML, CSS and JavaScript</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/Meme-Generator">
+                    <img src="images/meme-generator-project.jpeg" alt="Meme generator using a simple API to pull memes">
+                </a>
+                <p>Meme generator using a simple API to pull memes and display them to the user.</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/Student-Counter">
+                    <img src="images/student-counter.png" alt="Solidity smart contract which detects people leaving and entering a building">
+                </a>
+                <p>Smart contract which uses wallet addresses to detect people entering and leaving a building.</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/ToDo-List-Project">
+                    <img src="images/to-do-list.png" alt="To-do list created using HTML, CSS and JavaScript">
+                </a>
+                <p>To-do list created using HTML, CSS and JavaScript</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/GPT-Project">
+                    <img src="images/gpt-project.png" alt="ChatGPT project using the ChatGPT API to respond to prompts given by the user">
+                </a>
+                <p>ChatGPT project using the ChatGPT API to provide responses using GPT 3.</p>
+            </div>
+            <div class="grid-item">
+                <a href="https://github.com/TTibbs/GPT-Project">
+                    <img src="images/bootstrap-ecommerce-site.png" alt="Ecommerce website created using bootstrap">
+                </a>
+                <p>Learning-based project using bootstrap for an ecommerce website.</p>
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="images/portfolio-project.png" alt="Portolio project to showcase skills I have learned">
+                </a>
+                <p>Portfolio (this website) to showcase the skills gained as a self-taught developer.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Footer start -->
+    <footer id="contact">
+        <div>
+            <p>View my projects on GitHub or follow me on LinkedIn.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/TTibbs"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://www.linkedin.com/in/terry-www/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+</body>
+</html>
