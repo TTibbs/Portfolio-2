@@ -30,6 +30,12 @@ body {
     justify-content: space-between;
 }
 
+.logo-link {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -128,6 +134,24 @@ body {
     color: #1f1f1f;
 }
 
+.demo-button,
+.repo-button {
+    background: #ededed;
+    color: #606060;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.demo-button:hover,
+.repo-button:hover {
+    background: #606060;
+    color: #ededed;
+    transition: all .3s ease-in-out;
+}
+
 #contact {
     min-height: 20vh;
     padding: 1em;
@@ -140,4 +164,12 @@ body {
 
 .social-links a:nth-child(2) {
     margin-left: 10px;
+}
+
+.fa-github {
+    color: #606060;
+}
+
+.fa-linkedin {
+    color: #0077B5;
 }
