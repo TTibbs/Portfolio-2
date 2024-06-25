@@ -124,7 +124,7 @@ body {
 }
 
 .grid-item img:hover {
-    scale: 120%;
+    scale: 110%;
     transition: all .3s ease;
 }
 
@@ -166,10 +166,19 @@ body {
     margin-left: 10px;
 }
 
+
 .fa-github {
     color: #606060;
+    transition: all .3s ease;
 }
 
 .fa-linkedin {
     color: #0077B5;
+    transition: all .3s ease;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover {
+    scale: 120%;
+    transition: all .3s ease;
 }
